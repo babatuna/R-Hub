@@ -260,6 +260,7 @@ AddSlider(Combat, "Smoothing (Akıcılık)", 1, 10, 1, function(v) Config.Smooth
 AddToggle(Combat, "Show FOV Circle", false, function(s) end) -- Renderstepped'da çizilir
 AddToggle(Combat, "Team Check", true, function(s) Config.TeamCheck = s end)
 AddToggle(Combat, "Triggerbot (Auto-Fire)", false, function(s) Config.TriggerBot = s end)
+AddToggle(Combat, "Test", false, function(s) end)
 
 -- --- 👁️ VISUALS SECTION ---
 AddToggle(Visuals, "Glow ESP (Highlight)", false, function(s) 
